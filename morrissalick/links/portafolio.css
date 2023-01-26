@@ -162,7 +162,7 @@ display: flex;
 }
 .siemens {
   margin: 2%;
-  width: 326px;
+  width: 30%;
 }
 .siemens:hover {
   box-shadow: 10px 5px 5px #323130;
@@ -188,102 +188,12 @@ display: flex;
 }
 .cafem {
   margin: 2%;
-  width: 326px;
-  display: inline flow-root;
+  width: 30%;
+
 }
 .cafem:hover {
   box-shadow: 10px 5px 5px #323130;
   transition: 0.1s;
-}
-.cafem img {
-  width: 311px;
-  padding-left: 5px;
-}
-.cafem p {
-  width: 314px;
-  height: 130px;
-  padding-left: 12px;
-  background-color: #5e5e5e;
-  color: #fff;
-}
-.cafem a {
-  color: #fff;
-  font-weight: 600;
-}
-#shneider {
-  margin-top: 60px;
-  margin-bottom: 50px;
-}
-#sew {
-  margin-top: 17px;
-  margin-bottom: 8px;
-}
-#cafem {
-  margin-top: 20px;
-  margin-bottom: 68px;
-}
-#teco {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.portafolios {
-  position: relative;
-}
-.cont {
-  position: relative;
-}
-.contain {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  width: 90%;
-  margin: 2%;
-}
-.contain h2 {
-  font-size: 30px;
-  text-align: center;
-  color: #fff;
-  border-bottom: 1px solid black;
-  margin-bottom: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: "roboto";
-  background: linear-gradient(rgba(2, 45, 238, 0.7), rgba(149, 122, 232, 0.7));
-}
-
-.siemens {
-  margin: 2%;
-  width: 326px;
-  display: inline flow-root;
-  margin-left: 5%;
-}
-.siemens:hover {
-  box-shadow: 10px 5px 5px #323130;
-  transition: 0.1s;
-}
-.siemens img {
-  width: 311px;
-  padding-left: 5px;
-}
-.siemens p {
-  width: 314px;
-  height: 130px;
-  padding-left: 12px;
-
-  color: #fff;
-}
-.siemens a {
-  color: #fff;
-  font-weight: 600;
-}
-.cafem {
-  margin: 2%;
-  width: 326px;
-  border-bottom: 1px solid black;
-  display: inline flow-root;
-  margin-left: 5%;
 }
 .cafem img {
   width: 311px;
