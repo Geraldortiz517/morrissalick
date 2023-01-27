@@ -432,28 +432,28 @@ nav img {
   height: fit-content;
   padding-bottom: 10%;
   background-color: #323130;
+  display: flex;
+  padding-bottom: 40%;
 }
 .box {
-  width: 300px;
-  float: left;
+  width: 50%;
   text-align: left;
-  padding-left: 20vh;
+  padding-left: 3%;
   padding-top: 4vh;
   color: #fff;
 }
 .box p {
-  padding-left: 10vh;
+  padding-left: 3%;
 }
 .pie h3 {
   padding-bottom: 4vh;
   color: #686665;
 }
 .links {
-  width: 300px;
+  width: 40%;
   text-decoration: none;
   padding-top: 4vh;
-  padding-left: 20vh;
-  float: left;
+  padding-left: 3%;
 }
 .links ul li {
   margin: 2vh;
@@ -465,17 +465,171 @@ nav img {
   list-style: none;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width: 600px) and (max-width: 850px) {
   .menu {
     display: block;
+    padding-right: 2%;
   }
   .nav-links {
     display: none;
+  }
+  nav {
+    justify-content: flex-start;
+  }
+  .text-box {
+    top: 35%;
   }
   .text-box img {
     width: 70%;
   }
   nav img {
     width: 200px;
+  }
+  .text-box img {
+    width: 100%;
+  }
+  .text-box {
+    text-align: center;
+  }
+  .c2 h2 {
+    font-size: 18px;
+  }
+  .c2 p {
+    font-size: 15px;
+  }
+
+  .c1 h1 {
+    font-size: 18px;
+  }
+  #p1 {
+    font-size: 15px;
+  }
+  .liston {
+    bottom: 20%;
+    height: 100px;
+  }
+  .fondo p {
+    font-size: 15px;
+    padding-top: 45%;
+  }
+  .contain h2 {
+    font-size: 15px;
+  }
+  #shneider {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  #cafem {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .portafolios {
+    height: 75vh;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .menu {
+    display: block;
+    padding-right: 2%;
+  }
+  .nav-links {
+    display: none;
+  }
+  nav {
+    justify-content: flex-start;
+  }
+  .text-box {
+    top: 35%;
+  }
+  .text-box img {
+    width: 70%;
+  }
+  nav img {
+    width: 200px;
+  }
+  .text-box img {
+    width: 100%;
+  }
+  .text-box {
+    text-align: center;
+  }
+  .c2 h2 {
+    font-size: 18px;
+  }
+  .c2 p {
+    font-size: 15px;
+  }
+  .c1 h1 {
+    font-size: 18px;
+  }
+  #p1 {
+    font-size: 15px;
+  }
+  .liston {
+    bottom: 20%;
+    height: 100px;
+  }
+  .fondo p {
+    font-size: 15px;
+    padding-top: 45%;
+  }
+  .contain h2 {
+    font-size: 15px;
+  }
+  #shneider {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  #cafem {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .portafolios {
+    height: 50vh;
+  }
+  .contacto {
+    height: fit-content;
+  }
+  .contact {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .c1 {
+    width: 100%;
+    float: none;
+    height: 30%;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .correo {
+    left: 24%;
+  }
+  .telefono {
+    left: 10%;
+  }
+  .correo a {
+    font-size: 10px;
+  }
+  .telefono a {
+    font-size: 10px;
+  }
+  .co1 h1 {
+    font-size: 15px;
+  }
+  .pie {
+    display: block;
+  }
+  .box {
+    width: 100%;
+    text-align: center;
+  }
+  .box h2 {
+    font-size: 15px;
+  }
+  .links {
+    width: 100%;
+    text-align: center;
   }
 }
