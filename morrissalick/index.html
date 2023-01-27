@@ -21,17 +21,20 @@
         <div class="container">
             <header>
             <nav>
-                <img class="menu" src="../morrissalick/images/icons8-menu-rounded-50.png" alt="">
+                <img class="menu" src="../morrissalick/images/icons8-menu-rounded-50.png" onclick="showmenu()" alt="">
                 <a href=""><img src="../morrissalick/images/logo.png"> </a>
-              <div class="nav-links">
+              <div class="nav-links" id="navlinks">
+                <img id="fa" class="menu" src="../morrissalick/images/icons8-menu-rounded-50.png" onclick="hidemenu()" alt="">
+             
                 <ul>
-                <li><a href="#">inicio</a></li>  
+                       <li><a href="#">inicio</a></li>  
                 <li><a href="../morrissalick/links/info.html">informacion</a></li>     
                 <li><a href="../morrissalick/links/portafolio.html">portafolio</a></li>  
                 <li><a href="../morrissalick/links/servicio.html">servicios</a></li>  
                 <li><a href="../morrissalick/links/contacto.html">contacto</a></li>  
                 </ul>
               </div>
+               
                 </nav>
             
         </header>
@@ -171,17 +174,15 @@
         })
     </script>
 <script>
-var menu = document.getElementById("menulist");
+var navlinks = document.getElementById("navlinks");
 menu.style.maxHeight = "0px";
 
-function togglemenu() {
-    if (menulist.style.maxHeight == "0px") {
-
-        menulist.style.maxHeight = "200px";
-    }
-    else{
-        menulist.style.maxHeight = "0px";
-    }
+function showmenu() {
+    navlinks.style.left = "0px"
+}
+    function hidemenu() {
+    navlinks.style.left = "-200px"
+   
     
 }
 </script>
