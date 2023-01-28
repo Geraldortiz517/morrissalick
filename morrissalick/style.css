@@ -320,7 +320,6 @@ nav img {
   float: left;
   height: 100%;
   text-align: center;
-  padding-bottom:5%;
 }
 .c1 h1 {
   margin: 10%;
@@ -647,11 +646,11 @@ nav img {
   .c1 {
     width: 100%;
     float: none;
-    height: 30%;
+    height: 40%;
     border-right: none;
     border-bottom: 1px solid #fff;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
   }
   .correo {
     left: 24%;
