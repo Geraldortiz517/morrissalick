@@ -669,6 +669,8 @@ nav img {
   }
   .pie {
     display: block;
+    height: fit-content;
+    margin-bottom: 10%;
   }
   .box {
     width: 100%;
@@ -676,6 +678,9 @@ nav img {
   }
   .box h2 {
     font-size: 15px;
+  }
+  .box p {
+    padding-left: 0;
   }
   .links {
     width: 100%;
