@@ -423,7 +423,7 @@ nav img {
   .I-alimenticia img {
     width: 100%;
     height: fit-content;
-    object-fit: cover;
+    object-fit: contain;
     padding-left: 0px;
   }
   .pie {
