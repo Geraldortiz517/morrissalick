@@ -415,6 +415,7 @@ nav img {
   }
   .I-alimenticia {
     display: block;
+    height:fit-content;
   }
   .I-alimenticia div {
     width: 100%;
