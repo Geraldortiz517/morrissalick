@@ -33,6 +33,11 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.menu {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
 
 nav img {
   width: 300px;
@@ -306,6 +311,10 @@ nav img {
     height: 27vh;
     border-bottom: 1px solid black;
   }
+  .p1 p {
+    margin: 7%;
+    text-align: center;
+  }
   .pie {
     display: block;
     height: fit-content;
@@ -326,5 +335,6 @@ nav img {
     width: 100%;
     text-align: center;
     padding-left: 0;
+    margin-bottom: 10%;
   }
 }

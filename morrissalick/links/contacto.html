@@ -19,8 +19,11 @@
             <header>
             <nav>
                 <img id="" class="menu" src="../images/icons8-menu-rounded-50.png" onclick="showmenu()" alt="">
-                <a href=""><img src="../images/logo.png"> </a>
-              <div class="nav-links" id="navlink">
+               
+                <a href="../index.html"><img src="../images/logo.png"> </a>
+
+              <div class="nav-links" id="navlinks">
+
                 <img id="fa" class="menu" src="../images/icons8-menu-rounded-50.png" onclick="hidemenu()" alt="">
                 <ul>
                 <li><a href="../index.html">inicio</a></li>  
@@ -91,13 +94,12 @@
             header.classList.toggle("sticky", window.scrollY > 1);
         })
     </script>
-<script>
-var menu = document.getElementById("menulist");
-menu.style.maxHeight = "0px";
-</script>
+
 
 <script>
-    var navlinks = document.getElementById("navlinks");
+   
+   
+ var navlinks = document.getElementById("navlinks");
     menu.style.maxHeight = "0px";
     
     function showmenu() {
@@ -108,9 +110,7 @@ menu.style.maxHeight = "0px";
        
         
     }
-    </script>
-
- 
+  </script>
 </body>
 
 </html>
