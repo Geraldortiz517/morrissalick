@@ -415,7 +415,7 @@ nav img {
   }
   .I-alimenticia {
     display: block;
-    height:fit-content;
+    height: fit-content;
   }
   .I-alimenticia div {
     width: 100%;
@@ -447,5 +447,6 @@ nav img {
     width: 100%;
     text-align: center;
     padding-left: 0;
+    margin-bottom: 10%;
   }
 }
