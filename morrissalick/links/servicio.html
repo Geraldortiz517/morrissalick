@@ -18,9 +18,14 @@
         <div class="container">
             <header>
             <nav>
+                 <img id="" class="menu" src="../images/icons8-menu-rounded-50.png" onclick="showmenu()" alt="">
+             
                 <a href=""><img src="../images/logo.png"> </a>
-              <div class="nav-links">
+              <div class="nav-links" id="navlinks">
+               <img id="fa" class="menu" src="../images/icons8-menu-rounded-50.png" onclick="hidemenu()" alt="">
+             
                 <ul>
+                    
                 <li><a href="../index.html">inicio</a></li>  
                 <li><a href="info.html">informacion</a></li>     
                 <li><a href="portafolio.html">portafolio</a></li>  
@@ -33,11 +38,7 @@
         </header>
             <div class="text-box">
              <img src="../images/logo.png" alt="">
-              <p>
-                Somos una empresa que busca continuamente nuevas tecnologías 
-                que puedan mejorar<br> significativamente la productividad de nuestros clientes.
-              </p>
-        <a href=""class="botton">Mas Informacion</a>
+    
             </div>
         </section>
         <section class="subbaner">
@@ -53,30 +54,7 @@
 <p>Sistemas Redundantes</p>
 <p>venta de equipo especialzado</p>
             </div>
-            <div class="col2">
-               <div class="mision">
-                <h2>Mision</h2>
-                <p>Proveer de soluciones a las nececidades de nuestros
-                    clientes para imcrementar la productividad y eficiencia
-                    de su empresa
-                </p>
-            </div>
-            <div class="vision">
-                <h2>Vision</h2>
-                <p>
-                    Ser una empresa lider, innovadora, dinamica, eficiente y competitiva
-                    en los diferentes productos y servicios que ofrecemos
-                </p>
-            </div>
-            <div class="valores">
-                <h2>Valores</h2>
-                <p>
-                    Compromiso, Honestidad, Respeto, Eficacia, Eficiencia, Etica profecional
-                </p>
-            </div>
-                
-
-            </div>
+           
         </section>
     
         <section class="pie">
@@ -111,20 +89,18 @@
         })
     </script>
 <script>
-var menu = document.getElementById("menulist");
-menu.style.maxHeight = "0px";
-
-function togglemenu() {
-    if (menulist.style.maxHeight == "0px") {
-
-        menulist.style.maxHeight = "200px";
-    }
-    else{
-        menulist.style.maxHeight = "0px";
-    }
+    var navlinks = document.getElementById("navlinks");
+    menu.style.maxHeight = "0px";
     
-}
-</script>
+    function showmenu() {
+        navlinks.style.left = "0px"
+    }
+        function hidemenu() {
+        navlinks.style.left = "-200px"
+       
+        
+    }
+    </script>
 
  
 </body>
