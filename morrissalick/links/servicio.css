@@ -291,7 +291,7 @@ nav img {
     justify-content: flex-start;
   }
   .text-box {
-    top: 35%;
+    top: 70%;
   }
   .text-box img {
     width: 70%;
@@ -305,7 +305,10 @@ nav img {
   .text-box {
     text-align: center;
   }
-
+  .container {
+    min-height: min-content;
+    height: 30%;
+  }
   .col1 {
     width: 100%;
   }
