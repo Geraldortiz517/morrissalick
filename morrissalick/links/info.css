@@ -420,7 +420,7 @@ nav img {
   .I-alimenticia div {
     width: 100%;
     padding-top: 3%;
-    height:40vh;
+    height: fit-content;
   }
   .I-alimenticia img {
     width: 100%;
