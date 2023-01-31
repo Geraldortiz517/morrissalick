@@ -314,6 +314,10 @@ nav img {
   .text-box {
     text-align: center;
   }
+  
+.col1 {
+  width: 100%;
+}
 
   .pie {
     display: block;
