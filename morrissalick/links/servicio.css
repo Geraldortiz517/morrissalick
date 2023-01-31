@@ -258,7 +258,6 @@ nav img {
   .menu {
     display: block;
     padding-right: 2%;
-    width: 25px;
   }
 
   .nav-links ul li {
@@ -292,28 +291,25 @@ nav img {
     justify-content: flex-start;
   }
   .text-box {
-    top: 60%;
-    text-align: center;
+    top: 35%;
   }
   .text-box img {
-    width: 100%;
+    width: 70%;
   }
   nav img {
     width: 200px;
   }
-
-  .text-box h1 {
-    font-size: 40px;
-  }
-  .container {
-    min-height: max-content;
-    background-position-x: -200px;
-    height: 40%;
-  }
-  .col1 {
+  .text-box img {
     width: 100%;
+  }
+  .text-box {
     text-align: center;
   }
+
+  .col1 {
+    width: 100%;
+  }
+
   .pie {
     display: block;
     height: fit-content;
@@ -334,6 +330,5 @@ nav img {
     width: 100%;
     text-align: center;
     padding-left: 0;
-    margin-bottom: 10%;
   }
 }
